@@ -16,10 +16,11 @@ return {
           and vim.tbl_contains({
             "astro",
             "svelte",
-            "tsserver",
+            "ts_ls",
             "typescript-tools",
             "volar",
             "vtsls",
+            "tsserver", -- deprecated
           }, client.name)
         then
           vim.tbl_map(require("ts-error-translator").translate, result.diagnostics)
