@@ -1,5 +1,22 @@
 # Changelog
 
+## [13.3.0](https://github.com/AstroNvim/astrocommunity/compare/v13.2.0...v13.3.0) (2024-09-16)
+
+
+### Features
+
+* **copilot-cmp:** load when opening a file ([#1205](https://github.com/AstroNvim/astrocommunity/issues/1205)) ([b7e5b28](https://github.com/AstroNvim/astrocommunity/commit/b7e5b282ec9a52cff5633417abba80f59766fe04))
+* **lazydocker:** load when required only ([#1203](https://github.com/AstroNvim/astrocommunity/issues/1203)) ([283ca3c](https://github.com/AstroNvim/astrocommunity/commit/283ca3c0b1b06216860475834501628482e7c3c5))
+* **pack:** add Harper  ([#1199](https://github.com/AstroNvim/astrocommunity/issues/1199)) ([84ecff9](https://github.com/AstroNvim/astrocommunity/commit/84ecff964e25ceaa3957722e4e003ef1875489c7))
+* **utility:** add `harper-ls` integration ([84ecff9](https://github.com/AstroNvim/astrocommunity/commit/84ecff964e25ceaa3957722e4e003ef1875489c7))
+
+
+### Bug Fixes
+
+* **avante-nvim:** update correct plug mappings ([#1210](https://github.com/AstroNvim/astrocommunity/issues/1210)) ([6f7ecaf](https://github.com/AstroNvim/astrocommunity/commit/6f7ecaf8f769fad4a4894208666be4474f8c9f63))
+* **remote-sshfs-nvim:** use function call result ([#1208](https://github.com/AstroNvim/astrocommunity/issues/1208)) ([62e1768](https://github.com/AstroNvim/astrocommunity/commit/62e1768b21698079ef7a5653e3ebfba427174a4c))
+* **terraform:** add missing `tflint` in `nvim-lint` configuration ([7c2d273](https://github.com/AstroNvim/astrocommunity/commit/7c2d273ab163d9482ada84c0a2c3c0e6434fa6ca))
+
 ## [13.2.0](https://github.com/AstroNvim/astrocommunity/compare/v13.1.0...v13.2.0) (2024-09-09)
 
 
