@@ -32,3 +32,21 @@ Optionally available:
 
 To install, set `{ "luc-tielen/telescope_hoogle" },` in `user/plugins/core.lua`
 and install this pack as normal.
+
+## HLS options
+
+haskell-tools.nvim sets lsp options itself, so options set as usual in Astrolsp will not have any effect.
+Instead extend `vim.g.haskell_tools`, for example:
+
+```lua
+vim.g.haskell_tools = require("astrocore").extend_tbl({
+  ---@type HaskellLspClientOpts
+  hls = {
+    settings = {
+      haskell = {
+        formattingProvider = "fourmolu",
+      },
+    },
+  },
+}, vim.g.haskell_tools)
+```
